@@ -1,0 +1,28 @@
+.NavCard {
+  width: 10vmax;
+  text-align: center;
+  cursor: pointer;
+  padding-bottom: 1vmax;
+  transition: background-color 0.5s ease, transform 2s ease;
+  overflow: hidden;
+}
+.NavCard > img {
+  width: 10vmax;
+  padding-top: 1vmax;
+}
+.NavCard > p {
+  margin: 0;
+}
+
+.NavCard > span {
+  color: orangered;
+  padding-bottom: 1vmax;
+}
+.NavCard:hover{
+  /* background-color: #f5f5f5; */
+  
+  transform:  scale(1.2);
+  
+    
+
+}
